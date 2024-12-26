@@ -1,0 +1,22 @@
+.dashboard-card {
+  transition: all 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.chart-container {
+  transition: all 0.3s ease;
+}
+
+.chart-container:hover {
+  transform: scale(1.01);
+}
+
+.metric-value {
+  background: linear-gradient(45deg, #4B0082, #6A1B9A);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
